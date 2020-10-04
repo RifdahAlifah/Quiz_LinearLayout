@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PracticeActivity3">
+    <TextView
+        android:id="@+id/tv_kiri_atas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kiri_atas"
+        android:textSize="@dimen/_20sp"/>
+    <TextView
+        android:id="@+id/tv_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/centerr"
+        android:textSize="@dimen/_20sp"/>
+    <TextView
+        android:id="@+id/tv_kanan_atas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/kanan_atas"
+        android:textSize="@dimen/_20sp"/>
+    <TextView
+        android:id="@+id/tv_tengah_kanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/tengah_kanan"
+        android:textSize="@dimen/_20sp"/>
+    <TextView
+        android:id="@+id/tv_samping_tengah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/samping_tengah"
+        android:textSize="@dimen/_20sp"/>
+
+</RelativeLayout>

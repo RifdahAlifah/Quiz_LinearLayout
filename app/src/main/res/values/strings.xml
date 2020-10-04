@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Practice</string>
+    <string name="kiri_atas">Kiri Atas</string>
+    <string name="center">center</string>
+    <string name="kanan_atas">Kanan Atas</string>
+    <string name="tengah_kanan">Tengah kanan</string>
+    <string name="samping_tengah">Samping Tengah</string>
+    <string name="centerr">Center</string>
+</resources>
